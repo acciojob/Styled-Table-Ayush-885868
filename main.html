@@ -5,11 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+	<style>
+		#head{
+			background-color: #5072A7;
+		}
+		#wid{
+			width: 15%;
+		}
+		.colo{
+			background-color:#c0c0c0
+		}
+		table{
+			width: 100%;
+			border-style: none;
+			border-bottom-left-radius: 10%;
+			border-bottom-right-radius: 10%;
+			/*box-shadow: 0 0 0 5px;*/
+		}
+		thead,td,tr{
+	border : 1px solid black;
+			padding: 8px
+}
+	</style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- add table here -->
-
+<table border = "1">
+	<thead id="head"><tr>
+		
+		<th>NAME</th>
+		<th>KILLS</th>
+		<th>SAVED</th>
+		<th>DEATHS</th>
+		<th>REVIVES</th>
+		<th id ="wid">WIN</th>
+	</tr>
+		<tbody>
+		<tr>
+			<td>Hackerman</td>
+			<td>10</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+			<tr class ="colo">
+			<td>Cool Doggo</td>
+			<td>13</td>
+			<td>4</td>
+			<td>8</td>
+			<td>7</td>
+			<td>1</td>
+		</tr>
+			<tr>
+			<td>Andrews</td>
+			<td>19</td>
+			<td>2</td>
+			<td>10</td>
+			<td>11</td>
+			<td>0</td>
+		</tr>
+			<tr class ="colo">
+			<td>Strawberry</td>
+			<td>2</td>
+			<td>9</td>
+			<td>3</td>
+			<td>5</td>
+			<td>1</td>
+		</tr>
+		</tbody>
+	</thead>
+</table>
         
 </body>
 </html>
